@@ -1,0 +1,14 @@
+# PDF RAG SDK Python - Dependencies
+# Core dependencies for PDF → SQLite Vector DB conversion
+
+# SQLite async wrapper with Python DB API (REQUIRED)
+apsw>=3.9.0
+
+# SQLite vector extension for similarity search (REQUIRED)
+sqlite-vec>=0.1.0
+
+# Fast CPU-based embeddings - BAAI/bge-small-en-v1.5 (REQUIRED)
+fastembed>=0.2.0
+
+# PDF text extraction (REQUIRED - this is a PDF-focused SDK)
+pypdf>=3.0.0
